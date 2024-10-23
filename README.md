@@ -1,7 +1,9 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-Сначала делаем git clone
-Потом делаем npm install
-
-Запуск бэка php artisan serve
-Запуск фронта npm run dev
+1. Сначала делаем ```git clone```<br>
+2. Потом делаем ```npm install```<br>
+3. Делаем копию .env.example, называем .env. В параметры бд вносим свои данные
+<br>
+4. Проводим миграции ```php artisan migrate```
+5. Запуск бэка ```php artisan serve```<br>
+6. Запуск фронта ```npm run dev```<br>

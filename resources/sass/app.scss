@@ -1,0 +1,27 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+section {
+    margin-top: 20px;
+}
+.news__inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+}
+.wheather__inner {
+    margin-top: 20px;
+}
